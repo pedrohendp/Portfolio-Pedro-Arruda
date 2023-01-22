@@ -1,0 +1,247 @@
+{
+  "animations": [
+    {}
+  , {
+      "selector": "#about .section-title"
+    , "inclass":  "animate__fadeInDown"
+    , "outclass": "animate__fadeOutDown"
+    }
+  , {
+      "selector": ".intro-sub"
+    , "inclass":  "animate__zoomInUp"
+    , "outclass": "animate__zoomOutUp"
+    , "--animate-duration": "3.0s"
+    , "--animate-delay":  "0.0s"
+    }
+  , {
+      "selector": ".intro h1"
+    , "inclass":  "animate__zoomIn"
+    , "outclass": "animate__zoomOut"
+    }
+  , {
+      "selector": ".intro p"
+    , "inclass":  "animate__rotateIn"
+    , "outclass": "animate__rotateOut"
+    }
+  , {
+      "selector": "#social-icons ul.list-inline > li"
+    , "inclass":  "animate__rollIn"
+    , "outclass": "animate__rollOut"
+    }
+  , {
+      "selector": "#avatar"
+    , "inclass":  "animate__flip"
+    , "outclass": "animate__fadeOut"
+    }
+  , {
+      "selector": "#objective h3"
+    , "inclass":  "animate__lightSpeedInRight"
+    , "outclass": "animate__lightSpeedOutRight"
+    }
+  , {
+      "selector": "#objective p"
+    , "inclass":  "animate__fadeInLeft"
+    , "outclass": "animate__fadeOutLeft"
+    }
+  , {
+      "selector": "#scopes h3"
+    , "inclass":  "animate__lightSpeedInLeft"
+    , "outclass": "animate__lightSpeedOutLeft"
+    }
+  , {
+      "selector": "#scope-01"
+    , "inclass":  "animate__bounceInLeft"
+    , "outclass": "animate__bounceOutLeft"
+    }
+  , {
+      "selector": "#scope-02"
+    , "inclass":  "animate__bounceInRight"
+    , "outclass": "animate__bounceOutRight"
+    }
+  , {
+      "selector": "#scope-03"
+    , "inclass":  "animate__bounceInLeft"
+    , "outclass": "animate__bounceOutLeft"
+    }
+  , {
+      "selector": "#scope-04"
+    , "inclass":  "animate__rotateInDownRight"
+    , "outclass": "animate__rotateOutDownRight"
+    }
+  , {
+      "selector": "#scope-05"
+    , "inclass":  "animate__fadeInRight"
+    , "outclass": "animate__fadeOutRight"
+    }
+  , {
+      "selector": "#scope-06"
+    , "inclass":  "animate__bounceInLeft"
+    , "outclass": "animate__bounceOutLeft"
+    }
+  , {
+      "selector": "#scope-07"
+    , "inclass":  "animate__fadeInUp"
+    , "outclass": "animate__fadeOutUp"
+    }
+  , {
+      "selector": "#scope-08"
+    , "inclass":  "animate__fadeInRight"
+    , "outclass": "animate__fadeOutRight"
+    }
+  , {
+      "selector": "#scope-09"
+    , "inclass":  "animate__fadeInUp"
+    , "outclass": "animate__fadeOutUp"
+    }
+  , {
+      "selector": "#scope-10"
+    , "inclass":  "animate__rotateIn"
+    , "outclass": "animate__rotateOut"
+    }
+  , {
+      "selector": "#selfie h3"
+    , "inclass":  "animate__fadeInRight"
+    , "outclass": "animate__fadeOutRight"
+    }
+  , {
+      "selector": "#selfie p"
+    , "inclass":  "animate__fadeInLeft"
+    , "outclass": "animate__fadeOutLeft"
+    }
+  , {
+      "selector": "#whatido h3"
+    , "inclass":  "animate__fadeInRight"
+    , "outclass": "animate__fadeOutRight"
+    }
+  , {
+      "selector": "#whatido p"
+    , "inclass":  "animate__fadeInLeft"
+    , "outclass": "animate__fadeOutLeft"
+    }
+  , {
+      "selector": "#whatido-01"
+    , "inclass":  "animate__bounceInLeft"
+    , "outclass": "animate__bounceOutLeft"
+    }
+  , {
+      "selector": "#whatido-02"
+    , "inclass":  "animate__bounceInLeft"
+    , "outclass": "animate__bounceOutLeft"
+    }
+  , {
+      "selector": "#whatido-03"
+    , "inclass":  "animate__bounceInLeft"
+    , "outclass": "animate__bounceOutLeft"
+    }
+  , {
+      "selector": "#whatido-04"
+    , "inclass":  "animate__rotateInDownRight"
+    , "outclass": "animate__rotateOutDownRight"
+    }
+  , {
+      "selector": "#whatido-05"
+    , "inclass":  "animate__fadeInRight"
+    , "outclass": "animate__fadeOutRight"
+    }
+  , {
+      "selector": "#whatido-06"
+    , "inclass":  "animate__fadeInUp"
+    , "outclass": "animate__fadeOutUp"
+    }
+  , {
+      "selector": "#whatido-07"
+    , "inclass":  "animate__fadeInRight"
+    , "outclass": "animate__fadeOutLeft"
+    }
+  , {
+      "selector": "#whatido-08"
+    , "inclass":  "animate__fadeInUp"
+    , "outclass": "animate__fadeOutDown"
+    }
+  , {
+      "selector": "#whatido-09"
+    , "inclass":  "animate__bounceInLeft"
+    , "outclass": "animate__bounceOutLeft"
+    }
+  , {
+      "selector": "#whatido-10"
+    , "inclass":  "animate__rotateInUpRight"
+    , "outclass": "animate__rotateOutUpRight"
+    }
+  , {
+      "selector": "#resume .section-title"
+    , "inclass":  "animate__fadeInDown"
+    , "outclass": "animate__fadeOutDown"
+    }
+  , {
+      "selector": "#edu"
+    , "inclass":  "animate__fadeInUp"
+    , "outclass": "animate__fadeOutUp"
+    }
+  , {
+      "selector": "#career"
+    , "inclass":  "animate__fadeInUp"
+    , "outclass": "animate__fadeOutUp"
+    }
+  , {
+      "selector": "#edu-01"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#edu-02"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#car-01"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#car-02"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#car-03"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#car-04"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#car-05"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#car-06"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#car-07"
+    , "inclass":  "animate__flipInY"
+    , "outclass": "animate__flipOutY"
+    }
+  , {
+      "selector": "#skills .section-title"
+    , "inclass":  "animate__fadeInDown"
+    , "outclass": "animate__fadeOutDown"
+    }
+  , {
+      "selector": "#portfolio .section-title"
+    , "inclass":  "animate__fadeInDown"
+    , "outclass": "animate__fadeOutDown"
+    }
+  , {
+      "selector": "#contact .section-title"
+    , "inclass":  "animate__fadeInDown"
+    , "outclass": "animate__fadeOutDown"
+    }
+  ]
+}

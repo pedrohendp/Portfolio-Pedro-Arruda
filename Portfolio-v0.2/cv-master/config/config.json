@@ -1,0 +1,14 @@
+{
+  "__parent": "./build.json"
+, "app": {
+    "name": "%{APP_NAME|cv}"
+  , "version": "%{CODE_VERSION|0.3.1}"
+  , "env": "%{NODE_ENV|production}"
+  , "url": "http://@{./name}.%{NODE_ENV|test}"
+  }
+, "app_url": "http://cv.%{NODE_ENV|test}"
+, "engine": {
+    "name":    "cv-generator"
+  , "version": "%{CODE_VERSION|0.3.1}"
+  }
+}

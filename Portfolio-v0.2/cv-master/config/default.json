@@ -1,0 +1,5 @@
+{
+  "__parent": "./config.json"
+, "section":  "default"
+, "xhr_timeout": 7000
+}

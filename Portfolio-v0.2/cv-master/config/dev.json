@@ -1,0 +1,13 @@
+{
+  "__parent": "./config.json"
+, "app_url": "http://cv.%{NODE_ENV|dev}"
+, "environment": {
+    "title": "DEVELOPMENT"
+  }
+, "keys": {
+    "google": {
+      "maps": "YOUR_GOOGLE_MAPS_KEY"
+    }
+  }
+, "xhr_timeout": 10000
+}
