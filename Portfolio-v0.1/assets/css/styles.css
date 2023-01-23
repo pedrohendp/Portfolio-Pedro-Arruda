@@ -1,14 +1,15 @@
 /*==================== GOOGLE FONTS ====================*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
-:root {
-    --header-height: 3rem;
 
+:root {
+    --header-height: 20rem;
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
-
+    --hue-color: 250;
+    /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -22,10 +23,8 @@
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
-
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
@@ -34,11 +33,9 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
-
     /*========== Font weight ==========*/
     --font-medium: 500;
     --font-semi-bold: 600;
-
     /*========== Margenes Bottom ==========*/
     /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
     --mb-0-25: .25rem;
@@ -49,16 +46,17 @@
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
-
     /*========== z index ==========*/
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
 }
 
+
 /* Font size for large devices */
-@media screen and (min-width: 968px) {
-    :root {
+
+@media screen and (min-width: 1080px) {
+     :root {
         --big-font-size: 3rem;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
@@ -69,6 +67,7 @@
     }
 }
 
+
 /*========== Variables Dark theme ==========*/
 
 
@@ -76,166 +75,178 @@
 
 
 /*==================== BASE ====================*/
+
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0 0 var(--header-height) 0;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
+    margin: 0 0 var(--header-height) 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
 }
 
-h1, h2, h3, h4 {
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+h1,
+h2,
+h3,
+h4 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
+
 /*==================== REUSABLE CSS CLASSES ====================*/
+
 .section {
-  padding: 2rem 0 4rem;
+    padding: 2rem 0 4rem;
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
 }
 
 .section__subtitle {
-  display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: var(--mb-3);
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
 }
 
-.section__title, 
+.section__title,
 .section__subtitle {
-  text-align: center;
+    text-align: center;
 }
+
 
 /*==================== LAYOUT ====================*/
+
 .container {
-  max-width: 768px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+    max-width: 768px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
 }
 
 .grid {
-  display: grid;
-  gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
 }
 
 .header {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: var(--z-fixed);
-  background-color: var(--body-color);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--body-color);
 }
 
+
 /*==================== NAV ====================*/
-.nav{
-  max-width: 968px;
-  height: var(--header-height);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.nav {
+    max-width: 968px;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__logo,
-.nav__toggle{
-  color: var(--title-color);
-  font-weight: var(--font-medium);
+.nav__toggle {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
 }
 
-.nav__logo:hover{
-  color: var(--first-color);
+.nav__logo:hover {
+    color: var(--first-color);
 }
 
-.nav__toggle{
-  font-size: 1.1rem;
-  cursor: pointer;
+.nav__toggle {
+    font-size: 1.1rem;
+    cursor: pointer;
 }
 
-.nav__toggle:hover{
-  color: var(--first-color);
+.nav__toggle:hover {
+    color: var(--first-color);
 }
 
-@media screen and (max-width: 767px){
-  .nav__menu{
-    position: fixed;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    background-color: var(--body-color);
-    padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
-    border-radius: 1.5rem 1.5rem 0 0;
-    transition: .3s;
-  }
+@media screen and (max-width: 767px) {
+    .nav__menu {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--body-color);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+    }
 }
 
-.nav__list{
-  grid-template-columns: repeat(3,1fr);
-  gap: 2rem;
+.nav__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
-.nav__link{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: var(--small-font-size);
-  color: var(--title-color);
-  font-weight: var(--font-medium);
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
 }
 
-.nav__link:hover{
-  color: var(--first-color);
+.nav__link:hover {
+    color: var(--first-color);
 }
 
-.nav__icon{
-  font-size: 1.2rem;
+.nav__icon {
+    font-size: 1.2rem;
 }
 
-.nav__close{
-  position: absolute;
-  right: 1.3rem;
-  bottom: 5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: var(--first-color);
+.nav__close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: 4rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--first-color);
 }
 
-.nav__close:hover{
-  color: var(--first-color-alt);
+.nav__close:hover {
+    color: var(--first-color-alt);
 }
+
 
 /* show menu */
 
-.show-menu{
-  bottom: 0;
+.show-menu {
+    bottom: 0;
 }
+
 
 /* Active link */
 
@@ -289,6 +300,8 @@ img {
 
 
 /*==================== MEDIA QUERIES ====================*/
+
+
 /* For small devices */
 
 

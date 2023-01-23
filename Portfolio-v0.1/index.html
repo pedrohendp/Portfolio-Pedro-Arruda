@@ -1,147 +1,149 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--==================== UNICONS ====================-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--==================== UNICONS ====================-->
 
-        <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--==================== SWIPER CSS ====================-->
 
-        <title>Responsive Portfolio Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
+    <link rel="stylesheet" href="">
 
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Pedro Arruda</a>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-estate nav__icon"></i>  Home     
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#about" class="nav__link">
-                                <i class="uil uil-user nav__icon"></i> About     
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#skills" class="nav__link">
-                                <i class="uil uil-file-alt nav__icon"></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Pedro Arruda</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Sobre
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Serviços
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Entre em Contato
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps nav__close"></i>
                 </div>
-                <div class="nav__btns">
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/pedro-henrique-da-penha-arruda-91a819135/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/pedrohendp" class="home__social-icon">
+                            <i class="uil uil-dribbble"></i>
+                        </a>
+                        <a href="" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </section>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/pedro-henrique-da-penha-arruda-91a819135/" 
-                            target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin"></i> 
-                            </a>
-                            <a href="https://github.com/pedrohendp" class="home__social-icon">
-                                <i class="uil uil-dribbble"></i>
-                            </a>
-                            <a href="" class="home__social-icon">
-                                <i class="uil uil-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+        </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
 
-            </section>
+        </section>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
 
-            </section>
+        </section>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+        </section>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
 
-            </section>
+        </section>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+        </section>
 
-            </section>
-        </main>
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+        </section>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
 
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+
+    <!--==================== SWIPER JS ====================-->
+    <script src=""></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
