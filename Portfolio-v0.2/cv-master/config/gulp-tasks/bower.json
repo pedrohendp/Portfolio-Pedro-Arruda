@@ -1,6 +1,0 @@
-{
-  "__parent": "./colors.json"
-, "bower": {
-    "title": "BOWER TASK"
-  }
-}
